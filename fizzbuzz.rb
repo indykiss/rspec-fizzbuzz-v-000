@@ -7,11 +7,11 @@ def fizzbuzz (num)
     if num % 3 == 0 && num % 5 == 0
       puts "FizzBuz"
     elsif num % 3 == 0 
-      print "FizzBuzz"
+      puts "FizzBuzz"
     elsif num % 5 == 0 
-      print "Buzz"
+      puts "Buzz"
     else 
-      print "nil"
+      puts "nil"
    end
 end
 
