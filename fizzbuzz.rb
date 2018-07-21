@@ -5,13 +5,13 @@
 def fizzbuzz (num)
 
     if (num % 3 == 0 && num % 5 == 0)
-      puts "FizzBuz"
+      print "FizzBuz"
     elsif num % 3 == 0 
-      puts "FizzBuzz"
+      print "FizzBuzz"
     elsif num % 5 == 0 
-      puts "Buzz"
+      print "Buzz"
     else 
-      puts "nil"
+      print "nil"
    end
 end
 
