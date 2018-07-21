@@ -11,7 +11,7 @@ def fizzbuzz (num)
     elsif num % 15 == 0 
       print "FizzBuzz"
     else 
-      print nil
+      print "nil"
    end
 end
 
